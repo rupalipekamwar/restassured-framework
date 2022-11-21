@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testng suite automation">
+
+<test thread-count="5" name="Test">
+    <classes>
+      <class name="com_testng.exceptiontimeout"/>
+      <class name="com_testng.googletest"/>
+      <class name="com_testng.googletitletestcase"/>
+      <class name="com_testng.invocationcounttest"/>
+       <class name="com_testng.testngbasic"/>
+         <class name="com_testng.testngclass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
